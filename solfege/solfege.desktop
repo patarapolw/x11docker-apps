@@ -3,7 +3,7 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 Terminal=false
-Exec=x11docker --nxagent --pulseaudio --home -- --tmpfs /dev/shm -- solfege solfege
+Exec=x11docker --backend=podman --nxagent --alsa --home -- --tmpfs /dev/shm -- localhost/solfege solfege
 Name=GNU Solfege
 Icon=solfege
 Categories=GTK;AudioVideo;Audio;Education;Music;
